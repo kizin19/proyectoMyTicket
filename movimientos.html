@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimientos</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="imagenes/logo_finanzas_verde.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="imgNav" id="logo" src="imagenes/logo_finanzas_verde.png" alt="logo">
+            <ul class="direcciones" > 
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ticket.html">Tickets</a></li>
+                <li><a href="movimientos.html">Movimientos</a></li>
+                <li><a href="puntos.html">Puntos</a></li>
+            </ul>
+            <div class="derecha">
+                <img class="imgNav" src="imagenes\lupa.jpg" alt="busqueda">
+                <img class="imgNav" src="imagenes/inicioSesion.png" alt="incio de sesion">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="filtro">
+            <h3>Filtro de movimientos</h3>
+            <form action="filtro">
+                <p>Buscar por referencia:</p><input type="text">
+
+                <p>Buscar por empresa:</p><input type="text">
+
+                <p>Buscar por fecha:</p><input type="date">
+
+                <p>Ordenar por abecedario:</p>
+                    <select name="abecedario" id="letras">
+                        <option value="a-z">a-z</option>
+                        <option value="z-a">z-a</option>
+                    </select>
+
+                    <input type="submit" value="filtrar">
+            </form>
+        </div>
+        <div class="movimientos">
+                <div class="movimiento">
+            <h4>Alsuper</h4>
+            <ul>
+                <li>id: ASU-2024-05832</li>
+                <li>Referencia: Pago de servicios</li>
+                <li>Fecha: 15/01/2024 14:30</li>
+                <li>Total: $1,245.50</li>
+                <li>Tipo de movimiento: Compra</li>        
+            </ul>
+            <p>Descripcion: Compra de abarrotes y artículos del hogar</p>
+        </div>
+
+        <div class="movimiento">
+            <h4>Oxxo</h4>
+            <ul>
+                <li>id: OXX-2024-18765</li>
+                <li>Referencia: Recarga telefónica</li>
+                <li>Fecha: 15/01/2024 10:15</li>
+                <li>Total: $200.00</li>
+                <li>Tipo de movimiento: Servicio</li>        
+            </ul>
+            <p>Descripcion: Recarga tiempo aire y compra de refrescos</p>
+        </div>
+
+        <div class="movimiento">
+            <h4>Ferreteria don juan</h4>
+            <ul>
+                <li>id: FRS-2024-33921</li>
+                <li>Referencia: Compra en línea</li>
+                <li>Fecha: 14/01/2024 16:45</li>
+                <li>Total: $899.00</li>
+                <li>Tipo de movimiento: Venta</li>        
+            </ul>
+            <p>Descripcion: Productos electrónicos y accesorios</p>
+        </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="parte_superior">
+        <img src="imagenes/logo_finanzas_verde.png" alt="">
+        <h4>MyTicket</h4>
+        </div>
+            <p style="    margin-top: -19px;
+    margin-left: 80px; margin-bottom: 0px; font-style: arial; font-size: 15px;">Tu entrada para mejorar tus cuentas</p>
+       <div class="parte_medio">
+            <div id="izquierda">
+                    <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Servicios</a></li>
+                        <li><a href="">Contacto</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </div>
+                <div id="centro">
+                    <ul>
+                        <li><a href="">Direccion:Calle del Espectáculo, 123, 28013 Madrid, España</a></li>
+                        <li><a href="">Telefono:+34 910 123 456</a></li>
+                        <li><a href="">Email:info@myticket.es</a></li>
+                        <li><a href="">Horarios:24 horas, 7 dias</a></li>
+                    </ul>
+                </div>
+                
+                <div id="derecha">
+                    <ul>
+                        <li><a href="">Aviso Legal</a></li>
+                        <li><a href="">Politica de privacidad</a></li>
+                        <li><a href="">Cookies</a></li>
+                    </ul>
+                </div>
+
+                <div class="parte_inferior">
+
+                    <h4>Redes sociales</h4>
+                    <div class="redes_logo">
+                        <img src="imagenes/logo_instagram.png" alt="" style="height: 30px;
+    width: 30px;
+    margin-right: 10px;margin-bottom: 10px;">
+                        <img src="imagenes/logo_facebook.png" alt="" style="height: 40px;
+    width: 40px;
+    margin-right: 10px; margin-bottom: 7px;">
+                    </div>
+
+                    <h4>Suscribete a nuestra newsleetter</h4>
+                        <form action="suscribirte">
+                            <input type="email">
+                            <button>Suscribirme</button>
+                        </form>
+                    <p>© 2023 MyTicket S.L. | Todos los derechos reservados.</p>
+                </div>
+        </div>
+    </footer>
+</body>
+</html>

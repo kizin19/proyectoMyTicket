@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="imagenes/logo_finanzas_verde.png" type="image/x-icon">
+    <title>Tickets</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="imgNav" id="logo" src="imagenes/logo_finanzas_verde.png" alt="logo">
+            <ul class="direcciones" > 
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ticket.html">Tickets</a></li>
+                <li><a href="movimientos.html">Movimientos</a></li>
+                <li><a href="puntos.html">Puntos</a></li>
+            </ul>
+            <div class="derecha">
+                <img class="imgNav" src="imagenes\lupa.jpg" alt="busqueda">
+                <img class="imgNav" src="imagenes/inicioSesion.png" alt="incio de sesion">
+            </div>
+        </nav>
+    </header>
+    <main>
+       <div class="filtro">
+            <h3>Filtro de movimientos</h3>
+            <form action="filtro">
+                <p>Buscar por referencia:</p><input type="text">
+
+                <p>Buscar por empresa:</p><input type="text">
+
+                <p>Buscar por fecha:</p><input type="date">
+
+                <p>Ordenar por abecedario:</p>
+                    <select name="abecedario" id="letras">
+                        <option value="a-z">a-z</option>
+                        <option value="z-a">z-a</option>
+                    </select>
+
+                    <input type="submit" value="filtrar">
+            </form>
+        </div>
+              <h2 style="text-align: center;">Tienes 142 puntos</h2>
+        <div class="tickets">
+            <div class="ticket">
+                <h4 >Alsuper</h4>
+                <ul>
+                    <li>Fecha:<time datetime="2026-01-12">12 de Enero de 2026</time></li>
+                    <li>Hora:<time datatime="16:20"> 4:20 pm</time></li>
+                    <li>Numero de ticket:01</li>
+                    <ol start="1">
+                    <li>1...Jabon:20$</li>
+                    <li>1kg...Carne:120$</li>
+                    <li>1...Galon de leche:36$</li>
+                    <li>1kg...Salchicha:47</li>
+                    </ol>
+                    <li>Sub total:223$</li>
+                    <li>Total:258.68</li>
+                    <li>Puntos generados:15</li>   
+                </ul>
+                <p>Direccion de la tienda:junto a una casa blanca y roja que tieen un arbol y asi</p>
+            </div>
+            <div class="ticket">
+                <h4 >Oxxo</h4>
+                <ul>
+                    <li>Fecha:<time datetime="2026-01-12">12 de enero de 2026</time></li>
+                    <li>Hora:<time datatime="16:20"> 4:20 pm</time></li>
+                    <li>Numero de ticket:01</li>
+                    <ol start=1>
+                    <li>1...Jabon:20$</li>
+                    <li>1kg...Carne:120$</li>
+                    <li>1...Galon de leche:36$</li>
+                    <li>1kg...Salchicha:47</li>
+                    </ol>
+                    <li>Sub total:223$</li>
+                    <li>Total:258.68</li>
+                    <li>Puntos generados:15</li>   
+                </ul>
+                <p>Direccion de la tienda:junto a una casa blanca y roja que tieen un arbol y asi</p>
+            </div>
+            <div class="ticket">
+                <h4 >Ferreteria don juan</h4>
+                <ul>
+                    <li>fecha:<time datetime="2026-01-12">12 de enero de 2026</time></li>
+                    <li>hora:<time datatime="16:20"> 4:20 pm</time></li>
+                    <li>numero de ticket:01</li>
+                    <ol start=1>
+                    <li>1...Enchufe:20$</li>
+                    <li>1kg...Tornillos:120$</li>
+                    <li>1...Cinta negra:36$</li>
+                    <li>1kg...clavos:47</li>
+                    </ol>
+                    <li>sub total:223$</li>
+                    <li>total:258.68</li>
+                    <li>puntos generados:15</li>   
+                </ul>
+                <p>Direccion de la tienda:junto a una casa blanca y roja que tieen un arbol y asi</p>
+            </div>
+            
+            
+            
+
+        </div>
+    </main>
+    <footer>
+        <div class="parte_superior">
+        <img src="imagenes/logo_finanzas_verde.png" alt="">
+        <h4>MyTicket</h4>
+        </div>
+            <p style="    margin-top: -19px;
+    margin-left: 80px; margin-bottom: 0px; font-style: arial; font-size: 15px;">Tu entrada para mejorar tus cuentas</p>
+       <div class="parte_medio">
+            <div id="izquierda">
+                    <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Servicios</a></li>
+                        <li><a href="">Contacto</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </div>
+                <div id="centro">
+                    <ul>
+                        <li><a href="">Direccion:Calle del Espectáculo, 123, 28013 Madrid, España</a></li>
+                        <li><a href="">Telefono:+34 910 123 456</a></li>
+                        <li><a href="">Email:info@myticket.es</a></li>
+                        <li><a href="">Horarios:24 horas, 7 dias</a></li>
+                    </ul>
+                </div>
+                
+                <div id="derecha">
+                    <ul>
+                        <li><a href="">Aviso Legal</a></li>
+                        <li><a href="">Politica de privacidad</a></li>
+                        <li><a href="">Cookies</a></li>
+                    </ul>
+                </div>
+
+                <div class="parte_inferior">
+
+                    <h4>Redes sociales</h4>
+                    <div class="redes_logo">
+                        <img src="imagenes/logo_instagram.png" alt="" style="height: 30px;
+    width: 30px;
+    margin-right: 10px;margin-bottom: 10px;">
+                        <img src="imagenes/logo_facebook.png" alt="" style="height: 40px;
+    width: 40px;
+    margin-right: 10px; margin-bottom: 7px;">
+                    </div>
+
+                    <h4>Suscribete a nuestra newsleetter</h4>
+                        <form action="suscribirte">
+                            <input type="email">
+                            <button>Suscribirme</button>
+                        </form>
+                    <p>© 2023 MyTicket S.L. | Todos los derechos reservados.</p>
+                </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
